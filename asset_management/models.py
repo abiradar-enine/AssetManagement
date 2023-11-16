@@ -1,6 +1,6 @@
 from django.db import models
-from datetime import datetime
 from django.utils import timezone
+from django.urls import reverse
 
 
 class AssetGroup(models.Model):
@@ -12,7 +12,7 @@ class AssetGroup(models.Model):
         verbose_name_plural = "Asset Groups"
 
     def __str__(self):
-        return self.name
+        return f"{self.name}"
 
 
 class Asset(models.Model):
@@ -40,9 +40,11 @@ class Asset(models.Model):
         verbose_name = "Asset"
         verbose_name_plural = "Assets"
 
-    
     def __str__(self):
-        return f'{self.name} - {self.asset_code}'
+        return f"{self.name} - {self.asset_code}"
+
+    def get_absolute_url(self):
+        return reverse("assets")
 
 
 class AssetAllocation(models.Model):

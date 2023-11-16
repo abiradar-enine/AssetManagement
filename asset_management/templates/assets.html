@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assets</title>
+</head>
+<body>
+    {% for asset in assets %}
+        <a href="{% url 'update_asset' asset.id %}">{{asset}}</a>
+        <br>
+    {% endfor %}
+</body>
+</html>
