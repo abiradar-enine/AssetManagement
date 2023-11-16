@@ -1,0 +1,8 @@
+{% block content %}
+  <h2>Asset Group List</h2>
+  <ul>
+    {% for AssetGroup in AssetGroup_list %}
+      <li>{{ AssetGroup.name }} - {{ AssetGroup.description }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
