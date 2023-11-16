@@ -1,0 +1,426 @@
+[
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 2,
+        "fields": {
+            "asset": 23,
+            "employee_name": "Akshay Biradar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 3,
+        "fields": {
+            "asset": 24,
+            "employee_name": "Tejas Udhalikar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 4,
+        "fields": {
+            "asset": 25,
+            "employee_name": "Mridul Iyer"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 5,
+        "fields": {
+            "asset": 26,
+            "employee_name": "Tejas Udhalikar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 6,
+        "fields": {
+            "asset": 27,
+            "employee_name": "Vasudev Mohan Singh"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 7,
+        "fields": {
+            "asset": 28,
+            "employee_name": "Shubham Prajapati"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 8,
+        "fields": {
+            "asset": 29,
+            "employee_name": "TEST-02"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 9,
+        "fields": {
+            "asset": 30,
+            "employee_name": "TEST-01"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 10,
+        "fields": {
+            "asset": 31,
+            "employee_name": "Parag Sathaye"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 11,
+        "fields": {
+            "asset": 32,
+            "employee_name": "TEST"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 12,
+        "fields": {
+            "asset": 33,
+            "employee_name": "Shubham Prajapati"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 13,
+        "fields": {
+            "asset": 34,
+            "employee_name": "Shumu Gupta"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 14,
+        "fields": {
+            "asset": 35,
+            "employee_name": "Sakshi Sharma"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 15,
+        "fields": {
+            "asset": 36,
+            "employee_name": "Tejas Udhalikar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 16,
+        "fields": {
+            "asset": 37,
+            "employee_name": "Tejas Udhalikar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 17,
+        "fields": {
+            "asset": 38,
+            "employee_name": "Sakshi Sharma"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 18,
+        "fields": {
+            "asset": 39,
+            "employee_name": "Mridul Iyer"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 19,
+        "fields": {
+            "asset": 40,
+            "employee_name": "Yashwant Goud"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 20,
+        "fields": {
+            "asset": 41,
+            "employee_name": "Shubham Prajapati"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 21,
+        "fields": {
+            "asset": 42,
+            "employee_name": "Shumu Gupta"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 22,
+        "fields": {
+            "asset": 43,
+            "employee_name": "TEST-02"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 23,
+        "fields": {
+            "asset": 44,
+            "employee_name": "Yashwant Goud"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 24,
+        "fields": {
+            "asset": 45,
+            "employee_name": "TEST-03"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 25,
+        "fields": {
+            "asset": 46,
+            "employee_name": "Vasudev Mohan Singh"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 26,
+        "fields": {
+            "asset": 47,
+            "employee_name": "Tanasvi Katolkar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 27,
+        "fields": {
+            "asset": 48,
+            "employee_name": "Parag Sathaye"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 28,
+        "fields": {
+            "asset": 49,
+            "employee_name": "Not-in-Use"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 29,
+        "fields": {
+            "asset": 50,
+            "employee_name": "Tejas Udhalikar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 30,
+        "fields": {
+            "asset": 51,
+            "employee_name": "Akshay Biradar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 31,
+        "fields": {
+            "asset": 52,
+            "employee_name": "TEST-02"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 32,
+        "fields": {
+            "asset": 53,
+            "employee_name": "Sakshi Sharma"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 33,
+        "fields": {
+            "asset": 54,
+            "employee_name": "TEST-01"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 34,
+        "fields": {
+            "asset": 55,
+            "employee_name": "TEST"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 35,
+        "fields": {
+            "asset": 56,
+            "employee_name": "Parag Sathaye"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 36,
+        "fields": {
+            "asset": 57,
+            "employee_name": "Akshay Biradar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 37,
+        "fields": {
+            "asset": 58,
+            "employee_name": "Mridul Iyer"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 38,
+        "fields": {
+            "asset": 59,
+            "employee_name": "TEST"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 39,
+        "fields": {
+            "asset": 60,
+            "employee_name": "TEST-02"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 40,
+        "fields": {
+            "asset": 61,
+            "employee_name": "Sakshi Sharma"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 41,
+        "fields": {
+            "asset": 62,
+            "employee_name": "Parag Sathaye"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 42,
+        "fields": {
+            "asset": 63,
+            "employee_name": "TEST-02"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 43,
+        "fields": {
+            "asset": 64,
+            "employee_name": "Not-in-Use"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 44,
+        "fields": {
+            "asset": 65,
+            "employee_name": "Not-in-Use"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 45,
+        "fields": {
+            "asset": 66,
+            "employee_name": "TEST"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 46,
+        "fields": {
+            "asset": 67,
+            "employee_name": "Not-in-Use"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 47,
+        "fields": {
+            "asset": 68,
+            "employee_name": "TEST"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 48,
+        "fields": {
+            "asset": 69,
+            "employee_name": "TEST"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 49,
+        "fields": {
+            "asset": 70,
+            "employee_name": "Akshay Biradar"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 50,
+        "fields": {
+            "asset": 71,
+            "employee_name": "TEST-02"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 51,
+        "fields": {
+            "asset": 72,
+            "employee_name": "Yashwant Goud"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 52,
+        "fields": {
+            "asset": 73,
+            "employee_name": "Parag Sathaye"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 53,
+        "fields": {
+            "asset": 74,
+            "employee_name": "Yashwant Goud"
+        }
+    },
+    {
+        "model": "asset_management.assetallocation",
+        "pk": 54,
+        "fields": {
+            "asset": 75,
+            "employee_name": "TEST-03"
+        }
+    }
+]
