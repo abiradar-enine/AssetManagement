@@ -1,4 +1,4 @@
-from .views import CreateAsset
+from .views.asset_views import CreateAsset
 from django.urls import path
 
 
