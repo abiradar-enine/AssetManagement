@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
   <h2>Asset Group Report</h2>
   {% for asset_group in asset_groups %}
-    <h3><a href="{% url 'AssetGroup-update' asset_group.id %}">{{ asset_group.name }}</a></h3>
+    <h3><a href="{% url 'AssetGroup-update' asset_group.id %}">{{ asset_group.name }}</a> <a href="{% url 'AssetGroup-delete' asset_group.id %}"><img src="{% static '/images/deleteicon.png' %}" style="height:20px;" alt="Delete"></a> </h3>
     <table>
       <thead>
         <tr>
