@@ -7,6 +7,7 @@ from ..models import Asset, AssetAllocation
 from math import ceil
 from django.shortcuts import get_object_or_404
 
+
 class CreateAsset(CreateView):
     template_name = "addAsset.html"
     model = Asset
@@ -40,20 +41,19 @@ class AllAssets(ListView):
     paginate_by = 30
 
     def get_queryset(self):
-         return Asset.objects.all()
+        return Asset.objects.all()
 
     def get_context_data(self, **kwargs):
-        
+
         context = super().get_context_data(**kwargs)
 
-        page_number = int(self.request.GET.get('page', 1))
-        context['page_number'] = page_number
+        page_number = int(self.request.GET.get("page", 1))
+        context["page_number"] = page_number
         records_per_page = self.paginate_by
         total_records = len(Asset.objects.all())
-        context['last'] = ceil(total_records / records_per_page)
-        remaining_records = total_records - (
-            (page_number - 1) * records_per_page)
-        context['has_more_records'] = remaining_records > records_per_page
+        context["last"] = ceil(total_records / records_per_page)
+        remaining_records = total_records - ((page_number - 1) * records_per_page)
+        context["has_more_records"] = remaining_records > records_per_page
         return context
 
 
@@ -65,5 +65,5 @@ class AllocateAsset(UpdateView):
     def get_object(self, queryset=None):
         if queryset is None:
             queryset = self.get_queryset()
-        asset = get_object_or_404(queryset, asset_id=self.kwargs['pk'])
+        asset = get_object_or_404(queryset, asset_id=self.kwargs["pk"])
         return asset

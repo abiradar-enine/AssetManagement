@@ -1,6 +1,6 @@
+from django.urls import path
 from .views.asset_views import *
 from .views.assetgroup_views import *
-from django.urls import path
 
 
 urlpatterns = [

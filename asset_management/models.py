@@ -59,4 +59,4 @@ class AssetAllocation(models.Model):
         return f"{self.employee_name} : {self.asset}"
 
     def get_absolute_url(self):
-        return reverse("update_asset", kwargs={'pk': self.asset.id})
+        return reverse("update_asset", kwargs={"pk": self.asset.id})
