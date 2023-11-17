@@ -52,6 +52,7 @@ class AssetAllocation(models.Model):
     employee_name = models.CharField(max_length=255, default="Office")
 
     class Meta:
+        unique_together = ('asset', 'employee_name')
         verbose_name = "Asset Allocation"
         verbose_name_plural = "Asset Allocations"
 

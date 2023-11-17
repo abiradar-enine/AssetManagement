@@ -1,11 +1,8 @@
-from typing import Any
-from django.db.models.query import QuerySet
-from django.shortcuts import render
+from math import ceil
+from django.shortcuts import get_object_or_404
 from django.views.generic.edit import CreateView, UpdateView
 from django.views.generic import ListView
 from ..models import Asset, AssetAllocation
-from math import ceil
-from django.shortcuts import get_object_or_404
 
 
 class CreateAsset(CreateView):

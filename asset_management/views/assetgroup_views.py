@@ -1,9 +1,9 @@
 # views.py
 from django.urls import reverse_lazy
-from django.views.generic import CreateView, UpdateView, DeleteView, ListView
-from ..models import AssetGroup
 from django.views import View
 from django.shortcuts import render
+from django.views.generic import CreateView, UpdateView, DeleteView, ListView
+from ..models import AssetGroup
 
 
 class AssetGroupCreateView(CreateView):

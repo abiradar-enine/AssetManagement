@@ -1,6 +1,12 @@
 from django.urls import path
-from .views.asset_views import *
-from .views.assetgroup_views import *
+from .views.asset_views import AllAssets, CreateAsset, UpdateAsset, AllocateAsset
+from .views.assetgroup_views import (
+    AssetGroupCreateView,
+    AssetGroupUpdateView,
+    AssetGroupDeleteView,
+    AssetGroupReportView,
+    AssetGroupListView,
+)
 
 
 urlpatterns = [
@@ -26,5 +32,8 @@ urlpatterns += [
     path("assetgroup/list/", AssetGroupListView.as_view(), name="AssetGroup-list"),
     path(
         "assetgroup/report/", AssetGroupReportView.as_view(), name="AssetGroup-report"
+    ),
+    path(
+        "", AssetGroupReportView.as_view(), name="Welcome"
     ),
 ]

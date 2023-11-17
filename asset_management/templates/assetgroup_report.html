@@ -4,9 +4,8 @@
 {% block content %}
 <h2>Asset Group Report</h2>
 {% for asset_group in asset_groups %}
-<h3><a href="{% url 'AssetGroup-update' asset_group.id %}">
-        {{ asset_group.name }}
-    </a>
+<h3>
+    {{ asset_group.name }}
     <a href="{% url 'AssetGroup-update' asset_group.id %}"><img src="{% static '/images/edit-text.png' %}"
             style="height:20px; margin-left: 2px;" alt="Update" title="Update Asset Group"></a>
     <a href="{% url 'AssetGroup-delete' asset_group.id %}"><img src="{% static '/images/deleteicon.png' %}"
@@ -26,10 +25,20 @@
         {% for asset in asset_group.assets.all %}
         <tr>
             <td>{{ asset.name }}</td>
-            <td><a href="{% url 'update_asset' asset.id %}">{{ asset.asset_code }} </a></td>
+            <td>
+                <span style="float: left;">{{ asset.asset_code }}</span>
+                <span style="float: right;"><a href="{% url 'update_asset' asset.id %}"><img src="{% static '/images/edit-text.png' %}"
+                    style="height:20px; margin-left: 2px;" alt="Update" title="Update/Delete Asset"></a></span>
+            </td>
             <td>{{ asset.asset_model_number }}</td>
             {% for allocation in asset.assetallocation_set.all %}
-            <td>{{ allocation.employee_name }}</td>
+            <td>
+                <div >
+                <span style="float: left;">{{ allocation.employee_name }}</span>
+                <span style="float: right;"><a href="{% url 'allocate_asset' allocation.id %}" ><img src="{% static '/images/edit-text.png' %}"
+                    style="height:20px; margin-left: 2px;" alt="Update" title="Update Asset Allocation"></a></span>
+                </div>
+            </td>
             {% endfor %}
         </tr>
         {% endfor %}
