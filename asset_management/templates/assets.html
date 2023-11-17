@@ -1,15 +1,30 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
-
-    <h2>Assets</h2>
-
-    {% for asset in assets %}
-        <a href="{% url 'update_asset' asset.id %}">{{asset}}</a>
-        <br>
-    {% endfor %}
-
-    <br><br>
-    <div >
+    <table>
+        <thead>
+            <tr>
+                <th>Asset Code</th>
+                <th>Asset name</th>
+                <th>Asset Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for asset in assets %}
+            <tr>
+                <td>
+                    <span style="float: left;">{{asset.asset_code}}</span>
+                    <span style="float: right;"><a href="{% url 'update_asset' asset.id %}"><img
+                        src="{% static '/images/edit-text.png' %}" style="height:20px; margin-left: 2px;"
+                        alt="Update" title="Update/Delete Asset"></a></span>
+                </td>
+                <td>{{asset.name}}</td>
+                <td class="change-color">{{asset.status}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div style="margin-top: 20px;">
         <a href="{% url 'add_new_asset' %}">
             <button>Add New Asset</button>
         </a>
