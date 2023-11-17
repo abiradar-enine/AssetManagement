@@ -38,7 +38,7 @@ class AssetGroupReportView(View):
 
     def get(self, request, *args, **kwargs):
         asset_groups = AssetGroup.objects.prefetch_related(
-            "assets__assetallocation_set"
+            "assets__allocations"
         ).all()
 
         context = {"asset_groups": asset_groups}

@@ -33,7 +33,7 @@
             </td>
             <td>{{ asset.asset_model_number }}</td>
             <td class="change-color">{{ asset.status}}</td>
-            {% for allocation in asset.assetallocation_set.all %}
+            {% for allocation in asset.allocations.all %}
             <td>
                 <div >
                 <span style="float: left;">{{ allocation.employee_name }}</span>

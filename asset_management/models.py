@@ -48,7 +48,7 @@ class Asset(models.Model):
 
 
 class AssetAllocation(models.Model):
-    asset = models.OneToOneField(Asset, on_delete=models.CASCADE)
+    asset = models.OneToOneField(Asset, on_delete=models.CASCADE, related_name="allocations")
     employee_name = models.CharField(max_length=255, default="Office")
 
     class Meta:
