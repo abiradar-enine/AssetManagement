@@ -23,5 +23,7 @@ urlpatterns += [
         name="AssetGroup-delete",
     ),
     path("AssetGroup/list/", AssetGroupListView.as_view(), name="AssetGroup-list"),
-    path("AssetGroup/report/", AssetGroupReportView.as_view(),name= "AssetGroup-report")
+    path(
+        "AssetGroup/report/", AssetGroupReportView.as_view(), name="AssetGroup-report"
+    ),
 ]

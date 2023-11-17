@@ -7,11 +7,10 @@
 <h3><a href="{% url 'AssetGroup-update' asset_group.id %}">
         {{ asset_group.name }}
     </a>
-
     <a href="{% url 'AssetGroup-update' asset_group.id %}"><img src="{% static '/images/edit-text.png' %}"
-            style="height:20px; margin-left: 2px;" alt="Update"></a>
+            style="height:20px; margin-left: 2px;" alt="Update" title="Update Asset Group"></a>
     <a href="{% url 'AssetGroup-delete' asset_group.id %}"><img src="{% static '/images/deleteicon.png' %}"
-            style="height:20px; margin-left: 2px;" alt="Delete"></a>
+            style="height:20px; margin-left: 2px;" alt="Delete" title="Delete Asset Group"></a>
 
 </h3>
 <table>
