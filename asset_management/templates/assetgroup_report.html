@@ -37,7 +37,7 @@
             <td>
                 {% if asset.allocations %}
                 {{asset.allocations.employee_name}}
-                <span style="float: right;"><a href="{% url 'allocate_asset' asset.allocations.id %}"><img
+                <span style="float: right;"><a href="{% url 'allocate_asset' asset.id %}"><img
                             src="{% static '/images/edit-text.png' %}" style="height:20px; margin-left: 2px;"
                             alt="Update" title="Update Asset Allocation"></a></span>
                 {% else %}

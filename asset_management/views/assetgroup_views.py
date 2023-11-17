@@ -37,9 +37,7 @@ class AssetGroupReportView(View):
     template_name = "assetgroup_report.html"
 
     def get(self, request, *args, **kwargs):
-        asset_groups = AssetGroup.objects.prefetch_related(
-            "assets__allocations"
-        ).all()
+        asset_groups = AssetGroup.objects.prefetch_related("assets__allocations").all()
 
         context = {"asset_groups": asset_groups}
         return render(request, self.template_name, context)

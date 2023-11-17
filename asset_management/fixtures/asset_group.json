@@ -4,7 +4,8 @@
         "pk": 1,
         "fields": {
             "name": "Monitors",
-            "description": "LCD monitor to display information"
+            "description": "LCD monitor to display information",
+            "cable_count": 2
         }
     },
     {
@@ -12,7 +13,8 @@
         "pk": 2,
         "fields": {
             "name": "CPU",
-            "description": "processing unit"
+            "description": "processing unit",
+            "cable_count": 1
         }
     },
     {
@@ -20,7 +22,8 @@
         "pk": 3,
         "fields": {
             "name": "Keyboard",
-            "description": "typing partner"
+            "description": "typing partner",
+            "cable_count": 1
         }
     },
     {
@@ -28,7 +31,8 @@
         "pk": 4,
         "fields": {
             "name": "Mouse",
-            "description": "moving utility"
+            "description": "moving utility",
+            "cable_count": 0
         }
     },
     {
@@ -36,7 +40,8 @@
         "pk": 5,
         "fields": {
             "name": "MousePad",
-            "description": "amazonbasics"
+            "description": "amazonbasics",
+            "cable_count": 0
         }
     }
 ]

@@ -7,10 +7,10 @@
             "description": "",
             "asset_code": "ENINE-CPU-001",
             "asset_group": 2,
-            "asset_model_number": "11",
+            "asset_model_number": "X3105",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.354Z",
-            "modified_on": "2023-11-16T06:58:54.354Z",
+            "modified_on": "2023-11-17T11:46:14.413Z",
             "status": "OPERATIONAL"
         }
     },
@@ -22,10 +22,10 @@
             "description": "",
             "asset_code": "ENINE-CPU-002",
             "asset_group": 2,
-            "asset_model_number": "11",
+            "asset_model_number": "X3105",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.359Z",
-            "modified_on": "2023-11-16T06:58:54.360Z",
+            "modified_on": "2023-11-17T11:46:14.446Z",
             "status": "OPERATIONAL"
         }
     },
@@ -37,10 +37,10 @@
             "description": "",
             "asset_code": "ENINE-CPU-003",
             "asset_group": 2,
-            "asset_model_number": "11",
+            "asset_model_number": "X3105",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.366Z",
-            "modified_on": "2023-11-16T06:58:54.367Z",
+            "modified_on": "2023-11-17T11:46:14.449Z",
             "status": "OPERATIONAL"
         }
     },
@@ -52,10 +52,10 @@
             "description": "",
             "asset_code": "ENINE-CPU-004",
             "asset_group": 2,
-            "asset_model_number": "11",
+            "asset_model_number": "X3105",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.372Z",
-            "modified_on": "2023-11-16T06:58:54.372Z",
+            "modified_on": "2023-11-17T11:46:14.451Z",
             "status": "OPERATIONAL"
         }
     },
@@ -67,10 +67,10 @@
             "description": "",
             "asset_code": "ENINE-CPU-005",
             "asset_group": 2,
-            "asset_model_number": "11",
+            "asset_model_number": "X3105",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.376Z",
-            "modified_on": "2023-11-16T06:58:54.376Z",
+            "modified_on": "2023-11-17T11:46:14.453Z",
             "status": "OPERATIONAL"
         }
     },
@@ -82,10 +82,10 @@
             "description": "",
             "asset_code": "ENINE-CPU-006",
             "asset_group": 2,
-            "asset_model_number": "11",
+            "asset_model_number": "X3105",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.380Z",
-            "modified_on": "2023-11-16T06:58:54.381Z",
+            "modified_on": "2023-11-17T11:46:14.455Z",
             "status": "OPERATIONAL"
         }
     },
@@ -97,10 +97,10 @@
             "description": "",
             "asset_code": "ENINE-CPU-007",
             "asset_group": 2,
-            "asset_model_number": "11",
+            "asset_model_number": "X3105",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.385Z",
-            "modified_on": "2023-11-16T06:58:54.385Z",
+            "modified_on": "2023-11-17T11:46:14.458Z",
             "status": "OPERATIONAL"
         }
     },
@@ -112,10 +112,10 @@
             "description": "",
             "asset_code": "ENINE-CPU-008",
             "asset_group": 2,
-            "asset_model_number": "11",
+            "asset_model_number": "X3105",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.390Z",
-            "modified_on": "2023-11-16T06:58:54.390Z",
+            "modified_on": "2023-11-17T11:46:14.461Z",
             "status": "OPERATIONAL"
         }
     },
@@ -127,10 +127,10 @@
             "description": "",
             "asset_code": "ENINE-CPU-009",
             "asset_group": 2,
-            "asset_model_number": "11",
+            "asset_model_number": "X3105",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.394Z",
-            "modified_on": "2023-11-16T06:58:54.394Z",
+            "modified_on": "2023-11-17T11:46:14.462Z",
             "status": "OPERATIONAL"
         }
     },
@@ -142,10 +142,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-001",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.399Z",
-            "modified_on": "2023-11-16T06:58:54.399Z",
+            "modified_on": "2023-11-17T11:46:14.465Z",
             "status": "OPERATIONAL"
         }
     },
@@ -157,10 +157,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-002",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.404Z",
-            "modified_on": "2023-11-16T06:58:54.404Z",
+            "modified_on": "2023-11-17T11:46:14.466Z",
             "status": "OPERATIONAL"
         }
     },
@@ -172,10 +172,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-003",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.408Z",
-            "modified_on": "2023-11-16T06:58:54.409Z",
+            "modified_on": "2023-11-17T11:46:14.468Z",
             "status": "OPERATIONAL"
         }
     },
@@ -187,10 +187,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-004",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.413Z",
-            "modified_on": "2023-11-16T06:58:54.413Z",
+            "modified_on": "2023-11-17T11:46:14.470Z",
             "status": "OPERATIONAL"
         }
     },
@@ -202,10 +202,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-005",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.417Z",
-            "modified_on": "2023-11-16T06:58:54.418Z",
+            "modified_on": "2023-11-17T11:46:14.472Z",
             "status": "OPERATIONAL"
         }
     },
@@ -217,10 +217,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-006",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.422Z",
-            "modified_on": "2023-11-16T06:58:54.422Z",
+            "modified_on": "2023-11-17T11:46:14.473Z",
             "status": "OPERATIONAL"
         }
     },
@@ -232,10 +232,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-007",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.427Z",
-            "modified_on": "2023-11-16T06:58:54.428Z",
+            "modified_on": "2023-11-17T11:46:14.475Z",
             "status": "OPERATIONAL"
         }
     },
@@ -247,10 +247,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-008",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.432Z",
-            "modified_on": "2023-11-16T06:58:54.432Z",
+            "modified_on": "2023-11-17T11:46:14.477Z",
             "status": "OPERATIONAL"
         }
     },
@@ -262,10 +262,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-009",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.436Z",
-            "modified_on": "2023-11-16T06:58:54.436Z",
+            "modified_on": "2023-11-17T11:46:14.479Z",
             "status": "OPERATIONAL"
         }
     },
@@ -277,10 +277,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-010",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.442Z",
-            "modified_on": "2023-11-16T06:58:54.442Z",
+            "modified_on": "2023-11-17T11:46:14.480Z",
             "status": "OPERATIONAL"
         }
     },
@@ -292,10 +292,10 @@
             "description": "",
             "asset_code": "ENINE-KBD-011",
             "asset_group": 3,
-            "asset_model_number": "11",
+            "asset_model_number": "09FD2W",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.446Z",
-            "modified_on": "2023-11-16T06:58:54.446Z",
+            "modified_on": "2023-11-17T11:46:14.482Z",
             "status": "OPERATIONAL"
         }
     },
@@ -307,10 +307,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-001",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.450Z",
-            "modified_on": "2023-11-16T06:58:54.451Z",
+            "modified_on": "2023-11-17T11:46:14.484Z",
             "status": "OPERATIONAL"
         }
     },
@@ -322,10 +322,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-002",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.455Z",
-            "modified_on": "2023-11-16T06:58:54.455Z",
+            "modified_on": "2023-11-17T11:46:14.486Z",
             "status": "OPERATIONAL"
         }
     },
@@ -337,10 +337,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-003",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.460Z",
-            "modified_on": "2023-11-16T06:58:54.460Z",
+            "modified_on": "2023-11-17T11:46:14.487Z",
             "status": "OPERATIONAL"
         }
     },
@@ -352,10 +352,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-004",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.464Z",
-            "modified_on": "2023-11-16T06:58:54.465Z",
+            "modified_on": "2023-11-17T11:46:14.489Z",
             "status": "OPERATIONAL"
         }
     },
@@ -367,10 +367,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-005",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.469Z",
-            "modified_on": "2023-11-16T06:58:54.469Z",
+            "modified_on": "2023-11-17T11:46:14.491Z",
             "status": "OPERATIONAL"
         }
     },
@@ -382,10 +382,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-006",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.474Z",
-            "modified_on": "2023-11-16T06:58:54.474Z",
+            "modified_on": "2023-11-17T11:46:14.493Z",
             "status": "OPERATIONAL"
         }
     },
@@ -397,10 +397,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-007",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.478Z",
-            "modified_on": "2023-11-16T06:58:54.479Z",
+            "modified_on": "2023-11-17T11:46:14.495Z",
             "status": "OPERATIONAL"
         }
     },
@@ -412,10 +412,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-008",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.483Z",
-            "modified_on": "2023-11-16T06:58:54.483Z",
+            "modified_on": "2023-11-17T11:46:14.496Z",
             "status": "OPERATIONAL"
         }
     },
@@ -427,10 +427,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-009",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.487Z",
-            "modified_on": "2023-11-16T06:58:54.487Z",
+            "modified_on": "2023-11-17T11:46:14.498Z",
             "status": "OPERATIONAL"
         }
     },
@@ -442,10 +442,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-010",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.492Z",
-            "modified_on": "2023-11-16T06:58:54.492Z",
+            "modified_on": "2023-11-17T11:46:14.500Z",
             "status": "OPERATIONAL"
         }
     },
@@ -457,10 +457,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-011",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.497Z",
-            "modified_on": "2023-11-16T06:58:54.497Z",
+            "modified_on": "2023-11-17T11:46:14.502Z",
             "status": "OPERATIONAL"
         }
     },
@@ -472,10 +472,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-012",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.502Z",
-            "modified_on": "2023-11-16T06:58:54.503Z",
+            "modified_on": "2023-11-17T11:46:14.503Z",
             "status": "OPERATIONAL"
         }
     },
@@ -487,10 +487,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-013",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.507Z",
-            "modified_on": "2023-11-16T06:58:54.507Z",
+            "modified_on": "2023-11-17T11:46:14.505Z",
             "status": "OPERATIONAL"
         }
     },
@@ -502,10 +502,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-014",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.511Z",
-            "modified_on": "2023-11-16T06:58:54.511Z",
+            "modified_on": "2023-11-17T11:46:14.507Z",
             "status": "OPERATIONAL"
         }
     },
@@ -517,10 +517,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-015",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.515Z",
-            "modified_on": "2023-11-16T06:58:54.516Z",
+            "modified_on": "2023-11-17T11:46:14.508Z",
             "status": "OPERATIONAL"
         }
     },
@@ -532,10 +532,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-016",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.520Z",
-            "modified_on": "2023-11-16T06:58:54.520Z",
+            "modified_on": "2023-11-17T11:46:14.510Z",
             "status": "OPERATIONAL"
         }
     },
@@ -547,10 +547,10 @@
             "description": "",
             "asset_code": "ENINE-LCD-017",
             "asset_group": 1,
-            "asset_model_number": "11",
+            "asset_model_number": "BENQ",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.524Z",
-            "modified_on": "2023-11-16T06:58:54.525Z",
+            "modified_on": "2023-11-17T11:46:14.512Z",
             "status": "OPERATIONAL"
         }
     },
@@ -562,10 +562,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-001",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.529Z",
-            "modified_on": "2023-11-16T06:58:54.529Z",
+            "modified_on": "2023-11-17T11:46:14.514Z",
             "status": "OPERATIONAL"
         }
     },
@@ -577,10 +577,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-002",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.534Z",
-            "modified_on": "2023-11-16T06:58:54.534Z",
+            "modified_on": "2023-11-17T11:46:14.516Z",
             "status": "OPERATIONAL"
         }
     },
@@ -592,10 +592,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-003",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.538Z",
-            "modified_on": "2023-11-16T06:58:54.538Z",
+            "modified_on": "2023-11-17T11:46:14.517Z",
             "status": "OPERATIONAL"
         }
     },
@@ -607,10 +607,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-004",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.543Z",
-            "modified_on": "2023-11-16T06:58:54.543Z",
+            "modified_on": "2023-11-17T11:46:14.519Z",
             "status": "OPERATIONAL"
         }
     },
@@ -622,10 +622,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-005",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.547Z",
-            "modified_on": "2023-11-16T06:58:54.548Z",
+            "modified_on": "2023-11-17T11:46:14.522Z",
             "status": "OPERATIONAL"
         }
     },
@@ -637,10 +637,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-006",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.552Z",
-            "modified_on": "2023-11-16T06:58:54.552Z",
+            "modified_on": "2023-11-17T11:46:14.523Z",
             "status": "OPERATIONAL"
         }
     },
@@ -652,10 +652,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-007",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.556Z",
-            "modified_on": "2023-11-16T06:58:54.557Z",
+            "modified_on": "2023-11-17T11:46:14.525Z",
             "status": "OPERATIONAL"
         }
     },
@@ -667,10 +667,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-008",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.561Z",
-            "modified_on": "2023-11-16T06:58:54.561Z",
+            "modified_on": "2023-11-17T11:46:14.527Z",
             "status": "OPERATIONAL"
         }
     },
@@ -682,10 +682,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-009",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.565Z",
-            "modified_on": "2023-11-16T06:58:54.565Z",
+            "modified_on": "2023-11-17T11:46:14.529Z",
             "status": "OPERATIONAL"
         }
     },
@@ -697,10 +697,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-010",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.569Z",
-            "modified_on": "2023-11-16T06:58:54.569Z",
+            "modified_on": "2023-11-17T11:46:14.531Z",
             "status": "OPERATIONAL"
         }
     },
@@ -712,10 +712,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-011",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.573Z",
-            "modified_on": "2023-11-16T06:58:54.573Z",
+            "modified_on": "2023-11-17T11:46:14.533Z",
             "status": "OPERATIONAL"
         }
     },
@@ -727,10 +727,10 @@
             "description": "",
             "asset_code": "ENINE-MOU-012",
             "asset_group": 4,
-            "asset_model_number": "11",
+            "asset_model_number": "M90",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.578Z",
-            "modified_on": "2023-11-16T06:58:54.578Z",
+            "modified_on": "2023-11-17T11:46:14.535Z",
             "status": "OPERATIONAL"
         }
     },
@@ -742,10 +742,10 @@
             "description": "",
             "asset_code": "ENINE-MPD-001",
             "asset_group": 5,
-            "asset_model_number": "11",
+            "asset_model_number": "basics",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.582Z",
-            "modified_on": "2023-11-16T06:58:54.582Z",
+            "modified_on": "2023-11-17T11:46:14.537Z",
             "status": "OPERATIONAL"
         }
     },
@@ -757,10 +757,10 @@
             "description": "",
             "asset_code": "ENINE-MPD-002",
             "asset_group": 5,
-            "asset_model_number": "11",
+            "asset_model_number": "basics",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.588Z",
-            "modified_on": "2023-11-16T06:58:54.588Z",
+            "modified_on": "2023-11-17T11:46:14.539Z",
             "status": "OPERATIONAL"
         }
     },
@@ -772,10 +772,10 @@
             "description": "",
             "asset_code": "ENINE-MPD-003",
             "asset_group": 5,
-            "asset_model_number": "11",
+            "asset_model_number": "basics",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.592Z",
-            "modified_on": "2023-11-16T06:58:54.592Z",
+            "modified_on": "2023-11-17T11:46:14.541Z",
             "status": "OPERATIONAL"
         }
     },
@@ -787,10 +787,10 @@
             "description": "",
             "asset_code": "ENINE-MPD-004",
             "asset_group": 5,
-            "asset_model_number": "11",
+            "asset_model_number": "basics",
             "asset_serial_number": "",
             "asset_purchase_date": "2023-11-16T06:58:54.597Z",
-            "modified_on": "2023-11-16T06:58:54.597Z",
+            "modified_on": "2023-11-17T11:46:14.543Z",
             "status": "OPERATIONAL"
         }
     }

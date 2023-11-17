@@ -6,6 +6,7 @@ from django.urls import reverse
 class AssetGroup(models.Model):
     name = models.CharField(max_length=128, blank=False, unique=True)
     description = models.CharField(max_length=255, default="", null=True, blank=True)
+    cable_count = models.IntegerField(default=0, null=False, blank=False)
 
     class Meta:
         verbose_name = "Asset Group"
@@ -48,7 +49,9 @@ class Asset(models.Model):
 
 
 class AssetAllocation(models.Model):
-    asset = models.OneToOneField(Asset, on_delete=models.CASCADE, related_name="allocations")
+    asset = models.OneToOneField(
+        Asset, on_delete=models.CASCADE, related_name="allocations"
+    )
     employee_name = models.CharField(max_length=255, default="Office")
 
     class Meta:

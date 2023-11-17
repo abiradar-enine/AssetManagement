@@ -33,7 +33,5 @@ urlpatterns += [
     path(
         "assetgroup/report/", AssetGroupReportView.as_view(), name="AssetGroup-report"
     ),
-    path(
-        "", AssetGroupReportView.as_view(), name="Welcome"
-    ),
+    path("", AssetGroupReportView.as_view(), name="Welcome"),
 ]
