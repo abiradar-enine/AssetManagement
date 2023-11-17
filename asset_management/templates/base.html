@@ -98,5 +98,18 @@
 
 
 </body>
+<script>
+    var cells = document.getElementsByClassName('change-color');
+
+    for (var i = 0; i < cells.length; i++) {
+        var cellValue = cells[i].innerText;
+
+        if (cellValue === 'OPERATIONAL') {
+            cells[i].style.backgroundColor = 'lightgreen';
+        } else  {
+            cells[i].style.backgroundColor = '#ff5050';
+        }
+    }
+</script>
 
 </html>

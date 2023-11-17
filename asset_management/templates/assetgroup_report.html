@@ -18,6 +18,7 @@
             <th>Asset Name</th>
             <th>Asset Code</th>
             <th>Asset Model Number</th>
+            <th>Asset Status</th>
             <th>Employee Name</th>
         </tr>
     </thead>
@@ -31,6 +32,7 @@
                     style="height:20px; margin-left: 2px;" alt="Update" title="Update/Delete Asset"></a></span>
             </td>
             <td>{{ asset.asset_model_number }}</td>
+            <td class="change-color">{{ asset.status}}</td>
             {% for allocation in asset.assetallocation_set.all %}
             <td>
                 <div >

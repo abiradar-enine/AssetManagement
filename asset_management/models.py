@@ -48,11 +48,10 @@ class Asset(models.Model):
 
 
 class AssetAllocation(models.Model):
-    asset = models.ForeignKey(Asset, on_delete=models.CASCADE)
+    asset = models.OneToOneField(Asset, on_delete=models.CASCADE)
     employee_name = models.CharField(max_length=255, default="Office")
 
     class Meta:
-        unique_together = ('asset', 'employee_name')
         verbose_name = "Asset Allocation"
         verbose_name_plural = "Asset Allocations"
 
