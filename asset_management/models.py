@@ -54,3 +54,9 @@ class AssetAllocation(models.Model):
     class Meta:
         verbose_name = "Asset Allocation"
         verbose_name_plural = "Asset Allocations"
+
+    def __str__(self) -> str:
+        return f"{self.employee_name} : {self.asset}"
+
+    def get_absolute_url(self):
+        return reverse("update_asset", kwargs={'pk': self.asset.id})

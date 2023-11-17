@@ -1,14 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assets</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
+
+    <h2>Assets</h2>
+
     {% for asset in assets %}
         <a href="{% url 'update_asset' asset.id %}">{{asset}}</a>
         <br>
     {% endfor %}
-</body>
-</html>
+
+    <br><br>
+    <div >
+        <a href="{% url 'add_new_asset' %}">
+            <button>Add New Asset</button>
+        </a>
+    </div>
+
+    <br><br>
+    <div class="pagination">
+        <span class="step-links">
+            {% if page_number > 1 %}
+                &laquo; <a href="?page=1">First</a>
+                <a href="?page={{ page_number|add:'-1' }}">Prev</a>
+            {% endif %}
+    
+            <span class="current-page">{{ page_number }}</span>
+    
+            {% if has_more_records %}
+                <a href="?page={{ page_number|add:'1' }}">Next</a>
+                <a href="?page={{last}}">Last</a> &raquo;
+            {% endif %}
+
+            
+        </span>
+    </div>
+
+{% endblock %}

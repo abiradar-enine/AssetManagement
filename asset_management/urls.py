@@ -1,29 +1,30 @@
-from .views.asset_views import CreateAsset, UpdateAsset, AllAssets
+from .views.asset_views import *
 from .views.assetgroup_views import *
 from django.urls import path
 
 
 urlpatterns = [
-    path("assets", AllAssets.as_view(), name="assets"),
-    path("new_asset", CreateAsset.as_view(), name="add_new_asset"),
-    path("update_asset/<int:pk>", UpdateAsset.as_view(), name="update_asset"),
+    path("asset/list", AllAssets.as_view(), name="assets"),
+    path("asset/new", CreateAsset.as_view(), name="add_new_asset"),
+    path("asset/<int:pk>/edit", UpdateAsset.as_view(), name="update_asset"),
+    path("asset/<int:pk>/allocate", AllocateAsset.as_view(), name="allocate_asset"),
 ]
 
 
 urlpatterns += [
-    path("AssetGroup/new/", AssetGroupCreateView.as_view(), name="AssetGroup-create"),
+    path("assetgroup/new/", AssetGroupCreateView.as_view(), name="AssetGroup-create"),
     path(
-        "AssetGroup/<int:pk>/edit/",
+        "assetgroup/<int:pk>/edit/",
         AssetGroupUpdateView.as_view(),
         name="AssetGroup-update",
     ),
     path(
-        "AssetGroup/<int:pk>/delete/",
+        "assetgroup/<int:pk>/delete/",
         AssetGroupDeleteView.as_view(),
         name="AssetGroup-delete",
     ),
-    path("AssetGroup/list/", AssetGroupListView.as_view(), name="AssetGroup-list"),
+    path("assetgroup/list/", AssetGroupListView.as_view(), name="AssetGroup-list"),
     path(
-        "AssetGroup/report/", AssetGroupReportView.as_view(), name="AssetGroup-report"
+        "assetgroup/report/", AssetGroupReportView.as_view(), name="AssetGroup-report"
     ),
 ]
