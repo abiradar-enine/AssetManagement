@@ -2,30 +2,39 @@
 {% load static %}
 
 {% block content %}
-  <h2>Asset Group Report</h2>
-  {% for asset_group in asset_groups %}
-    <h3><a href="{% url 'AssetGroup-update' asset_group.id %}">{{ asset_group.name }}</a> <a href="{% url 'AssetGroup-delete' asset_group.id %}"><img src="{% static '/images/deleteicon.png' %}" style="height:20px;" alt="Delete"></a> </h3>
-    <table>
-      <thead>
+<h2>Asset Group Report</h2>
+{% for asset_group in asset_groups %}
+<h3><a href="{% url 'AssetGroup-update' asset_group.id %}">
+        {{ asset_group.name }}
+    </a>
+
+    <a href="{% url 'AssetGroup-update' asset_group.id %}"><img src="{% static '/images/edit-text.png' %}"
+            style="height:20px; margin-left: 2px;" alt="Update"></a>
+    <a href="{% url 'AssetGroup-delete' asset_group.id %}"><img src="{% static '/images/deleteicon.png' %}"
+            style="height:20px; margin-left: 2px;" alt="Delete"></a>
+
+</h3>
+<table>
+    <thead>
         <tr>
-          <th>Asset Name</th>
-          <th>Asset Code</th>
-          <th>Asset Model Number</th>
-          <th>Employee Name</th>
+            <th>Asset Name</th>
+            <th>Asset Code</th>
+            <th>Asset Model Number</th>
+            <th>Employee Name</th>
         </tr>
-      </thead>
-      <tbody>
+    </thead>
+    <tbody>
         {% for asset in asset_group.assets.all %}
-          <tr>
+        <tr>
             <td>{{ asset.name }}</td>
             <td><a href="{% url 'update_asset' asset.id %}">{{ asset.asset_code }} </a></td>
             <td>{{ asset.asset_model_number }}</td>
             {% for allocation in asset.assetallocation_set.all %}
-              <td>{{ allocation.employee_name }}</td>
+            <td>{{ allocation.employee_name }}</td>
             {% endfor %}
-          </tr>
+        </tr>
         {% endfor %}
-      </tbody>
-    </table>
-  {% endfor %}
+    </tbody>
+</table>
+{% endfor %}
 {% endblock %}

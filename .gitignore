@@ -3,7 +3,6 @@ db.sqlite3
 favicons.zip
 links.txt
 sandbox/
-static/
 upload/
 models_*.pdf
 models_*.png
