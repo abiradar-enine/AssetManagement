@@ -28,20 +28,22 @@
             <td>{{ asset.name }}</td>
             <td>
                 <span style="float: left;">{{ asset.asset_code }}</span>
-                <span style="float: right;"><a href="{% url 'update_asset' asset.id %}"><img src="{% static '/images/edit-text.png' %}"
-                    style="height:20px; margin-left: 2px;" alt="Update" title="Update/Delete Asset"></a></span>
+                <span style="float: right;"><a href="{% url 'update_asset' asset.id %}"><img
+                            src="{% static '/images/edit-text.png' %}" style="height:20px; margin-left: 2px;"
+                            alt="Update" title="Update/Delete Asset"></a></span>
             </td>
             <td>{{ asset.asset_model_number }}</td>
             <td class="change-color">{{ asset.status}}</td>
-            {% for allocation in asset.allocations.all %}
             <td>
-                <div >
-                <span style="float: left;">{{ allocation.employee_name }}</span>
-                <span style="float: right;"><a href="{% url 'allocate_asset' allocation.id %}" ><img src="{% static '/images/edit-text.png' %}"
-                    style="height:20px; margin-left: 2px;" alt="Update" title="Update Asset Allocation"></a></span>
-                </div>
+                {% if asset.allocations %}
+                {{asset.allocations.employee_name}}
+                <span style="float: right;"><a href="{% url 'allocate_asset' asset.allocations.id %}"><img
+                            src="{% static '/images/edit-text.png' %}" style="height:20px; margin-left: 2px;"
+                            alt="Update" title="Update Asset Allocation"></a></span>
+                {% else %}
+                Office
+                {% endif %}
             </td>
-            {% endfor %}
         </tr>
         {% endfor %}
     </tbody>
